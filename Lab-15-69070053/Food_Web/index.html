@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FOODPICKER ITF</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-container">
+      <span class="logo">TOTSUKI x ITF</span>
+      <span class="nav-badge">Food Picker</span>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <div class="card">
+      <div class="image-wrapper">
+        <img id="food-image" src="" alt="Food Image">
+      </div>
+
+      <div class="food-details">
+        <h2 id="food-name">Loading...</h2>
+        <p id="food-desc">กรุณากดปุ่มเพื่อสุ่มเมนูอาหาร</p>
+        <div class="price-tag">
+          <span class="label">ราคา:</span>
+          <span id="food-price">0</span>
+          <span class="unit">บาท</span>
+        </div>
+      </div>
+
+      <button id="random-btn" class="btn-primary" type="button">สุ่มเมนูอาหาร</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
